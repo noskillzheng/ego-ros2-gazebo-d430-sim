@@ -2,8 +2,6 @@
 
 Ubuntu 24.04 / ROS 2 Jazzy / Gazebo Harmonic。飞行动力学与传感器由 Gazebo 计算，PX4 SITL 执行 Offboard 位置控制，EGO Planner 使用实时深度图进行局部建图与避障。
 
-业务节点全部使用 C++，Python 仅用于 launch、依赖补丁和配置校验。
-
 ## 数据流
 
 ```text
@@ -23,7 +21,7 @@ EGO B-spline → traj_server → /position_cmd → offboard (ENU → NED)
 
 ## 依赖与构建
 
-依赖版本固定在 [dependencies.repos](dependencies.repos)，第三方源码和构建产物由 [.gitignore](.gitignore) 排除。EGO 基于 `ros2_version`，补丁保存在 [patches/ego-jazzy-sim-time.patch](patches/ego-jazzy-sim-time.patch)。补丁包括 Jazzy 的 cv_bridge 头文件、仿真时钟、图像缓冲大小、场地地图原点和手动目标高度。
+依赖版本固定在 [dependencies.repos](dependencies.repos)，EGO 基于 `ros2_version`，补丁保存在 [patches/ego-jazzy-sim-time.patch](patches/ego-jazzy-sim-time.patch)。补丁包括 Jazzy 的 cv_bridge 头文件、仿真时钟、图像缓冲大小、场地地图原点和手动目标高度。
 
 本机复用的安装：
 
@@ -38,8 +36,6 @@ cd ~/src/ego-gazebo-ros2-sim
 export PX4_DIR=~/Projects/PX4-Autopilot
 bash scripts/fetch_dependencies.sh
 ```
-
-在 VS Code 执行任务 **Configure ROS workspace**，再执行 **Build ROS workspace**。配置任务会激活 `ros2-jazzy` 预设；顶层 CMake 目标负责调用 colcon，构建 EGO、px4_msgs、ros_gz_bridge、RealSense 驱动和集成节点。
 
 小型系统依赖从 ROS Jazzy 软件仓库下载并解包到 `.deps`。需要已安装 ROS Jazzy 的开发环境、PCL、OpenCV、Eigen、Gazebo Harmonic 开发库、colcon 和 librealsense。PX4 消息从本机 PX4 的普通及 versioned uORB 定义同步；PX4 提交改变时准备脚本会拒绝继续，避免消息结构不匹配。
 
