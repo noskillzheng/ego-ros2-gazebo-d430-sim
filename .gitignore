@@ -1,0 +1,16 @@
+build/
+install/
+log/
+.runtime/
+.cache/
+.deps/
+__pycache__/
+src/px4_msgs/
+src/ego-planner-swarm/
+src/ros_gz/
+src/realsense-ros/
+src/gz_vendor/
+CMakeUserPresets.json
+*.pyc
+*.ulog
+*.ulg

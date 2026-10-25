@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+  <model name="rmuc_2027">
+    <static>true</static>
+    <link name="field">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://rmuc_2027/meshes/rmuc_2027_collision.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>1e8</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://rmuc_2027/meshes/rmuc_2027_visual.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.55 0.58 0.62 1</ambient>
+          <diffuse>0.72 0.75 0.80 1</diffuse>
+          <specular>0.08 0.08 0.08 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

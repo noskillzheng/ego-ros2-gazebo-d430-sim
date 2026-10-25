@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ego_gazebo</name><version>0.1.0</version>
+  <description>RMUC 2027, PX4 x500, simulated D430 and EGO Planner integration.</description>
+  <maintainer email="true1@example.com">true1</maintainer><license>BSD-3-Clause</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend><depend>px4_msgs</depend><depend>quadrotor_msgs</depend>
+  <depend>eigen</depend>
+  <depend>geometry_msgs</depend><depend>nav_msgs</depend><depend>sensor_msgs</depend>
+  <depend>std_msgs</depend><depend>std_srvs</depend><depend>tf2_ros</depend>
+  <exec_depend>ego_planner</exec_depend><exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>launch_ros</exec_depend><exec_depend>ament_index_python</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend><exec_depend>rviz2</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

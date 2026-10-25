@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "configurePresets": [{
+    "name": "ros2-jazzy",
+    "displayName": "ROS 2 Jazzy workspace",
+    "generator": "Ninja",
+    "binaryDir": "${sourceDir}/build/superbuild"
+  }],
+  "buildPresets": [{"name": "ros2-jazzy", "configurePreset": "ros2-jazzy"}],
+  "testPresets": [{"name": "ros2-jazzy", "configurePreset": "ros2-jazzy", "output": {"outputOnFailure": true}}]
+}
