@@ -58,5 +58,17 @@
       <name>rmuc_2027</name>
       <pose>0 0 0 0 0 0</pose>
     </include>
+    <!-- Outpost rotors spin at 0.8*pi rad/s (JointController). Poses from
+         tools/build_report.json: rotor axis, tilted 1.5 deg as in the CAD. -->
+    <include>
+      <uri>model://rmuc_2027_outpost_rotor_red</uri>
+      <name>red_outpost_rotor</name>
+      <pose>17.249119 11.959432 1.808095 0.026180 0.000000 -3.141593</pose>
+    </include>
+    <include>
+      <uri>model://rmuc_2027_outpost_rotor_blue</uri>
+      <name>blue_outpost_rotor</name>
+      <pose>11.049073 4.171273 1.808095 0.026180 0.000000 0.000000</pose>
+    </include>
   </world>
 </sdf>
