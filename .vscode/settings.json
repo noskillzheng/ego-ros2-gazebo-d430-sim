@@ -1,7 +1,0 @@
-{
-  "cmake.sourceDirectory": "${workspaceFolder}",
-  "cmake.buildDirectory": "${workspaceFolder}/build/superbuild",
-  "cmake.configureOnOpen": false,
-  "cmake.useCMakePresets": "always",
-  "python.defaultInterpreterPath": "/usr/bin/python3"
-}
