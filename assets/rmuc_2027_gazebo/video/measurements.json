@@ -1,0 +1,424 @@
+{
+  "camera": {
+    "model": "Hikrobot MV-CS016-10UC (Sony IMX273)",
+    "exposure_us": 4000,
+    "gain_db": 8,
+    "framerate": 120,
+    "gamma": null,
+    "white_balance": "unknown",
+    "source": "RMCS rmcs_bringup/config/deformable-infantry-omni.yaml"
+  },
+  "clips": {
+    "2026-08-05_14-41-19": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 2.142,
+      "category": "field"
+    },
+    "2026-08-05_14-41-28": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 11.55,
+      "category": "field"
+    },
+    "2026-08-05_14-41-44": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 2.525,
+      "category": "field"
+    },
+    "2026-08-05_14-41-49": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 6.408,
+      "category": "field"
+    },
+    "2026-08-05_14-41-57": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 2.942,
+      "category": "field"
+    },
+    "2026-08-05_14-42-29": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 2.108,
+      "category": "field"
+    },
+    "2026-08-05_14-42-34": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 17.858,
+      "category": "field"
+    },
+    "2026-08-05_14-43-37": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 10.35,
+      "category": "field"
+    },
+    "2026-08-05_14-44-05": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 6.692,
+      "category": "field"
+    },
+    "2026-08-05_14-44-20": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 4.8,
+      "category": "field"
+    },
+    "2026-08-05_15-29-19": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 0.108,
+      "category": "pit"
+    },
+    "2026-08-05_15-31-04": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 3.767,
+      "category": "pit"
+    },
+    "2026-08-05_15-31-08": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 10.992,
+      "category": "pit"
+    },
+    "2026-08-05_15-31-23": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 4.475,
+      "category": "pit"
+    },
+    "2026-08-05_15-31-29": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 5.633,
+      "category": "pit"
+    },
+    "2026-08-05_15-31-39": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 8.5,
+      "category": "pit"
+    },
+    "2026-08-05_15-31-51": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 17.592,
+      "category": "pit"
+    },
+    "2026-08-05_15-32-14": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 5.158,
+      "category": "pit"
+    },
+    "2026-08-05_15-32-20": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 13.975,
+      "category": "pit"
+    },
+    "2026-08-05_15-33-15": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 2.067,
+      "category": "pit"
+    },
+    "2026-08-05_15-33-32": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 5.375,
+      "category": "pit"
+    },
+    "2026-08-05_15-33-40": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 6.842,
+      "category": "pit"
+    },
+    "2026-08-05_15-33-47": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 7.617,
+      "category": "pit"
+    },
+    "2026-08-06_05-19-52": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 6.525,
+      "category": "off-site"
+    },
+    "2026-08-06_06-40-12": {
+      "width": 1440,
+      "height": 1080,
+      "fps": 120.0,
+      "duration_s": 7.817,
+      "category": "off-site"
+    }
+  },
+  "measurements": {
+    "white_marking_dn": [
+      44.0,
+      46.0,
+      42.0
+    ],
+    "floor_next_to_marking_dn": [
+      15.5,
+      16.0,
+      12.5
+    ],
+    "floor_dn": {
+      "14-41-28": [
+        13.67,
+        14.5,
+        13.17
+      ],
+      "14-42-34": [
+        14.33,
+        16.67,
+        14.67
+      ],
+      "14-44-05": [
+        16.0,
+        17.67,
+        15.17
+      ],
+      "14-44-20": [
+        18.0,
+        20.0,
+        18.83
+      ]
+    },
+    "wall_dn": {
+      "14-41-28 wall behind robot": {
+        "wall": [
+          0.39,
+          1.12,
+          0.85
+        ],
+        "floor_same_frame": [
+          13.67,
+          14.5,
+          13.17
+        ],
+        "wall_over_floor_G": 0.077
+      },
+      "14-42-34 pillar face": {
+        "wall": [
+          0.28,
+          0.6,
+          0.46
+        ],
+        "floor_same_frame": [
+          14.33,
+          16.67,
+          14.67
+        ],
+        "wall_over_floor_G": 0.036
+      },
+      "14-44-05 block side": {
+        "wall": [
+          0.86,
+          1.31,
+          0.45
+        ],
+        "floor_same_frame": [
+          16.0,
+          17.67,
+          15.17
+        ],
+        "wall_over_floor_G": 0.074
+      },
+      "14-44-20 ramp side": {
+        "wall": [
+          1.79,
+          3.18,
+          4.08
+        ],
+        "floor_same_frame": [
+          18.0,
+          20.0,
+          18.83
+        ],
+        "wall_over_floor_G": 0.159
+      }
+    },
+    "shadow_vs_lit_floor_G": {
+      "shadow": 2.68,
+      "lit": 19.38,
+      "ratio": 0.138
+    },
+    "upright_white_sticker_R_dn": {
+      "14-41-49 \"2\"": 10.61,
+      "14-44-05 \"4\"": 15.19
+    },
+    "blue_paint": {
+      "14-44-05": {
+        "paint": [
+          6.33,
+          9.49,
+          23.72
+        ],
+        "floor": [
+          15.0,
+          16.0,
+          12.0
+        ],
+        "paint_over_floor_G": [
+          0.4,
+          0.59,
+          1.48
+        ]
+      },
+      "14-41-28": {
+        "paint": [
+          5.0,
+          7.12,
+          21.12
+        ],
+        "floor": [
+          11.0,
+          11.0,
+          8.0
+        ],
+        "paint_over_floor_G": [
+          0.45,
+          0.65,
+          1.92
+        ]
+      },
+      "14-44-20": {
+        "paint": [
+          6.95,
+          12.22,
+          16.29
+        ],
+        "floor": [
+          15.0,
+          15.0,
+          12.0
+        ],
+        "paint_over_floor_G": [
+          0.46,
+          0.81,
+          1.09
+        ]
+      }
+    },
+    "banner_dn": [
+      20.0,
+      16.0,
+      23.0
+    ],
+    "floor_temporal_noise_G_dn": 2.03,
+    "field_frames_analysed": 404,
+    "field_luma_percentiles": {
+      "25": 0,
+      "50": 1,
+      "75": 7,
+      "90": 17,
+      "95": 22,
+      "99": 63,
+      "99.9": 243
+    },
+    "field_luma_fraction_zero": 0.446,
+    "led_core_dn_median": {
+      "blue": {
+        "n": 3515,
+        "rgb": [
+          141.38,
+          235.17,
+          252.54
+        ]
+      },
+      "red": {
+        "n": 1497,
+        "rgb": [
+          253.06,
+          210.75,
+          73.52
+        ]
+      },
+      "green": {
+        "n": 111,
+        "rgb": [
+          143.04,
+          252.44,
+          218.76
+        ]
+      }
+    },
+    "led_edge_chromaticity_median": {
+      "blue": {
+        "n": 474848,
+        "rgb": [
+          0.07,
+          0.41,
+          1.0
+        ]
+      },
+      "red": {
+        "n": 297163,
+        "rgb": [
+          1.0,
+          0.41,
+          0.09
+        ]
+      },
+      "green": {
+        "n": 20215,
+        "rgb": [
+          0.49,
+          1.0,
+          0.83
+        ]
+      }
+    }
+  },
+  "derived": {
+    "floor_over_white": 0.333,
+    "wall_over_floor_range": [
+      0.036,
+      0.159
+    ],
+    "blue_paint_over_floor_median": [
+      0.45,
+      0.65,
+      1.48
+    ],
+    "upright_over_horizontal_white": [
+      0.24,
+      0.35
+    ],
+    "led_over_white_lower_bound": 5.5
+  }
+}

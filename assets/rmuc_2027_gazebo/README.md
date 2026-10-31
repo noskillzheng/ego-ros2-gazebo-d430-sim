@@ -14,6 +14,7 @@ gz sim -r --physics-engine gz-physics-dartsim-plugin worlds/rmuc_2027.sdf
 ```
 
 - 默认用 DART。gz-physics7 的 Bullet 插件在 `CollisionInfo` 里先析构 `btTriangleMesh`、后析构引用它的 `btGImpactMeshShape`，带网格碰撞的场景退出时会在 `btGImpactMeshShapePart::~btGImpactMeshShapePart()` 段错误。要用 Bullet：`RM_PHYSICS_ENGINE=bullet ./run.sh`。
+- 赛场光照版本：`./run_venue.sh`，打开 `worlds/rmuc_2027_venue.sdf`。几何不变，光照和表面外观（地面、墙、地面漆的反射率，灯条颜色）按 RMUC 2026 总决赛的自瞄内录还原。说明见 [docs/venue_lighting.md](docs/venue_lighting.md)。
 - 检测到 NVIDIA 独显时，`run.sh` 用 PRIME offload 渲染（Intel 核显的 Mesa 驱动曾在 GUI 渲染线程里崩溃）。不想用独显：`RM_USE_DGPU=0 ./run.sh`。
 
 ## 坐标
